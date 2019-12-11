@@ -1,167 +1,149 @@
-<!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Home One || Witter Multipage Responsive Template</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-        <!-- Place favicon.ico in the root directory -->
-        <!-- Google Fonts -->
-        <link href='https://fonts.googleapis.com/css?family=Poppins:400,700,600,500,300' rel='stylesheet' type='text/css'>
 
-        <!-- all css here -->
-        <!-- bootstrap v3.3.6 css -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <!-- animate css -->
-        <link rel="stylesheet" href="css/animate.css">
-        <!-- jquery-ui.min css -->
-        <link rel="stylesheet" href="css/jquery-ui.min.css">
-        <!-- meanmenu css -->
-        <link rel="stylesheet" href="css/meanmenu.min.css">
-        <!-- Font-Awesome css -->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <!-- pe-icon-7-stroke css -->
-        <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
-        <!-- Flaticon css -->
-        <link rel="stylesheet" href="css/flaticon.css">
-        <!-- venobox css -->
-        <link rel="stylesheet" href="venobox/venobox.css" type="text/css" media="screen" />
-        <!-- nivo slider css -->
-        <link rel="stylesheet" href="lib/css/nivo-slider.css" type="text/css" />
-        <link rel="stylesheet" href="lib/css/preview.css" type="text/css" media="screen" />
-        <!-- owl.carousel css -->
-        <link rel="stylesheet" href="css/owl.carousel.css">
-        <!-- style css -->
-        <link rel="stylesheet" href="style.css">
-        <!-- responsive css -->
-        <link rel="stylesheet" href="css/responsive.css">
-        <!-- modernizr css -->
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        
-<div class="header-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-2 col-sm-6 col-xs-6">
-                        <div class="header-logo">
-                            <a href="index.html">
-                                <img src="img/logo.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-1 col-sm-6 visible-sm  col-xs-6">
-                        <div class="header-right">
-                            <ul>
-                                <li>
-                                    <a href="login/login.php"><i class="flaticon-people"></i></a>
-                                </li>
-                                <li class="shoping-cart">
-                                    <a href="#">
-                                        <i class="flaticon-shop"></i>
-                                        <span>2</span>
-                                    </a>
-                                    <div class="add-to-cart-product">
-                                        <div class="cart-product">
-                                            <div class="cart-product-image">
-                                                <a href="single-product.html">
-                                                    <img src="img/shop/1.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="cart-product-info">
-                                                <p>
-                                                    <span>1</span>
-                                                    x
-                                                    <a href="single-product.html">East of eden</a>
-                                                </p>
-                                                <a href="single-product.html">S, Orange</a>
-                                                <span class="cart-price">$ 140.00</span>
-                                            </div>
-                                            <div class="cart-product-remove">
-                                                <i class="fa fa-times"></i>
-                                            </div>
-                                        </div>
-                                        <div class="cart-product">
-                                            <div class="cart-product-image">
-                                                <a href="single-product.html">
-                                                    <img src="img/shop/1.jpg" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="cart-product-info">
-                                                <p>
-                                                    <span>1</span>
-                                                    x
-                                                    <a href="single-product.html">East of eden</a>
-                                                </p>
-                                                <a href="single-product.html">S, Orange</a>
-                                                <span class="cart-price">$ 140.00</span>
-                                            </div>
-                                            <div class="cart-product-remove">
-                                                <i class="fa fa-times"></i>
-                                            </div>
-                                        </div>
-                                        <div class="total-cart-price">
-                                            <div class="cart-product-line fast-line">
-                                                <span>Shipping</span>
-                                                <span class="free-shiping">$10.50</span>
-                                            </div>
-                                            <div class="cart-product-line">
-                                                <span>Total</span>
-                                                <span class="total">$ 140.00</span>
-                                            </div>
-                                        </div>
-                                        <div class="cart-checkout">
-                                            <a href="checkout.html">
-                                                Check out
-                                                <i class="fa fa-chevron-right"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>                    
-                    <div class="col-md-9 col-sm-12 hidden-xs">
-                        <div class="mainmenu text-center">
-                            <nav>
-                                <ul id="nav">
-                                    <li><a href="index.php">Acceuil</a></li>
-                                    <li><a href="produit.php">Produits</a>
-                                    </li>
-                                    <li><a href="#">SAV</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="RDVf.php">Rendez-vous</a></li>
-                                        <li><a href="demande_produit.php">Envoyer demande</a></li>
-                                       
-                                    </ul></li>
-                                </ul>
-                            </nav>
-                        </div>                        
-                    </div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Optimax</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Page level plugin CSS-->
+  <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin.css" rel="stylesheet">
+
+</head>
 
 
-                    <div class="col-md-1 hidden-sm">
-                        <div class="header-right">
-                            <ul>
-                                <li>
-                                    <a href="login/login.php"><i class="flaticon-people"></i></a>
-                                </li>
-                                <li class="shoping-cart">
-                                    <a href="cart.php">
-                                        <i class="flaticon-shop"></i>
-                                        <span>2</span>
-                                    </a>
-                                   
-                                         
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<body id="page-top">
+
+  <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
+
+    <a class="navbar-brand mr-1" href="index.html">Optimax</a>
+
+    <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Navbar Search -->
+    <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-primary" type="button">
+            <i class="fas fa-search"></i>
+          </button>
         </div>
-    </body>
-    </html>
+      </div>
+    </form>
+
+    <!-- Navbar -->
+    <ul class="navbar-nav ml-auto ml-md-0">
+      <li class="nav-item dropdown no-arrow mx-1">
+        <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-bell fa-fw"></i>
+          <span class="badge badge-danger">9+</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="alertsDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown no-arrow mx-1">
+        <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-envelope fa-fw"></i>
+          <span class="badge badge-danger">7</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="messagesDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown no-arrow">
+        <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-user-circle fa-fw"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+          <a class="dropdown-item" href="#">Settings</a>
+          <a class="dropdown-item" href="#">Activity Log</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Logout</a>
+        </div>
+      </li>
+    </ul>
+
+  </nav>
+
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="sidebar navbar-nav">
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-fw fa-folder"></i>
+          <span>Pages</span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+          <h6 class="dropdown-header">Login Screens:</h6>
+          <a class="dropdown-item" href="login.html">Login</a>
+          <a class="dropdown-item" href="register.html">Register</a>
+          <a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
+          <div class="dropdown-divider"></div>
+          <h6 class="dropdown-header">Other Pages:</h6>
+          <a class="dropdown-item" href="404.html">404 Page</a>
+          <a class="dropdown-item" href="blank.html">Blank Page</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="affichagestat.php">
+          <i class="fas fa-fw fa-chart-area"></i>
+          <span>Statistiques</span></a>
+      </li>
+         <li class="sub-menu">
+                <a href="">
+                    <i class=" fa fa-bar-chart-o"></i>
+                    <span>Promotion</span>
+                </a>
+                <ul class="sub">
+                    <li><a href="promotion.php">Ajouter Promotion</a></li>
+                    <li><a href="modifierpromotion.php">Gestion promotion</a></li>
+                </ul>
+
+            </li>
+         
+        <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Page level plugin JavaScript-->
+  <script src="vendor/chart.js/Chart.min.js"></script>
+  <script src="vendor/datatables/jquery.dataTables.js"></script>
+  <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin.min.js"></script>
+
+  <!-- Demo scripts for this page-->
+  <script src="js/demo/datatables-demo.js"></script>
+  <script src="js/demo/chart-area-demo.js"></script>
+
+</body>
+
+</html>

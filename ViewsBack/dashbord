@@ -1,0 +1,2 @@
+<?PHP include("include/header.php");?>
+<?PHP include("include/footer.php");?>
